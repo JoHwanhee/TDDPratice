@@ -1,4 +1,4 @@
-package StringCalulatorTest;
+package StringCalulator.test;
 
 
 import static org.junit.Assert.assertEquals;
