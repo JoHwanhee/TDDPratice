@@ -1,4 +1,4 @@
-package StringCalulator;
+package StringCalulator.src;
 
 public class Pattern {
 	private StringBuilder patternBuilder; 

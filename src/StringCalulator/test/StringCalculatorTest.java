@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.Test;
 
-import StringCalulator.StringCalculator;
+import StringCalulator.src.StringCalculator;
 
 public class StringCalculatorTest {
 	
