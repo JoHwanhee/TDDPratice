@@ -12,28 +12,28 @@ import StringCalulator.src.StringCalculator;
 public class StringCalculatorTest {
 	
 	@Test
-	public void null_¶Ç´Â_°ø¶õ() {
+	public void null_ë˜ëŠ”_ê³µëž€() {
 		assertEquals(StringCalculator.splitAndSum(null), 0);
 		assertEquals(StringCalculator.splitAndSum(""), 0);
 	} 
 	
 	@Test
-	public void °ª_ÇÏ³ª() {
+	public void ê°’_í•˜ë‚˜() {
 		assertEquals(StringCalculator.splitAndSum("1"), 1);
 	}
 	
 	@Test
-	public void ½°Ç¥_±¸ºÐÀÚ() {
+	public void ì‰¼í‘œ_êµ¬ë¶„ìž() {
 		assertEquals(StringCalculator.splitAndSum("1,2"), 3);		
 	}
 	
 	@Test
-	public void ½°Ç¥_ÄÝ·Ð_±¸ºÐÀÚ() {
+	public void ì‰¼í‘œ_ì½œë¡ _êµ¬ë¶„ìž() {
 		assertEquals(StringCalculator.splitAndSum("1,2:3"), 6);
 	} 
 	
 	@Test
-	public void À½¼ö´Â_RuntimeException() {
+	public void ìŒìˆ˜ëŠ”_RuntimeException() {
 	    assertThrows(RuntimeException.class, () -> StringCalculator.splitAndSum("-1,2:3"));
 	} 
 }
